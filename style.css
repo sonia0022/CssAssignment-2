@@ -393,7 +393,7 @@ main {
 
     /* sec-04 */
     .section-4 {
-        background-image: url(/images/back1.avif);
+        background-image: url(./images/back1.avif);
         background-position: center;
         background-attachment: fixed;
 
@@ -734,6 +734,9 @@ main {
                     font-size: 1.1em;
                     color: var(--primary-color);
                 }
+            }
+            a:hover {
+                transform: translate(10px);
             }
         }
     }
